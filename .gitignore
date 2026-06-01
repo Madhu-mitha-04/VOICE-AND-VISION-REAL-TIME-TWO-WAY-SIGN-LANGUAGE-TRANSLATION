@@ -1,0 +1,57 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+backend/node_modules/
+model/node_modules/
+package-lock.json
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+*.npy
+*.npz
+*.h5
+*.pt
+*.pth
+*.pkl
+.venv/
+.env
+
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+temp/
+uploads/
+*.mp4
+*.avi
+*.mov
+
+# =========================
+# OS/System files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code settings
+# =========================
+.vscode/
+
+# =========================
+# Public build (if using React/Next)
+# =========================
+build/
+dist/
+
+# =========================
+# Misc
+# =========================
+*.zip
+*.tar.gz
